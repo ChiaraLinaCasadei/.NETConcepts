@@ -1,6 +1,16 @@
 # Que es .NET
 
 Es un ecosistema para desarrollo de aplicaciones.
+## NET CLI
+Es la consola de comandos que viene con el SDK de .NET. Sino podemos usar Visual Studio.
+## CLR (Common Language Runtime)
+Es la base sobre la cual se construyen todas las aplicaciones .NET.
+El Runtime tiene features como:
+* Garbage collection: si ya no se usa, se elimina.
+* Diseño multiplataforma: solo necesito el runtime para el entorno donde quiero correr mi app. No necesito recompilar nada.
+* Alto nivel de soporte para lenguajes de programación
+* Seguridad de memoria: previene bugs que pueden hacer los programadores sobre cómo está utilizado el espacio en memoria. Ejemplo: querer acceder al 11vo espacio de memoria de una lista que declaramos de 10 elementos.
+* Seguridad de tipos: Nos arroja un error al querer asignar un int a una variable declarada como string.
 
 ## Funcionamiento
 Primero que nada, debemos programar en un lenguaje tolerado por .NET, como C#, para escribir el codigo fuente.
